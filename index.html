@@ -1,0 +1,377 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>EditMyTemplate</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/slides.min.jquery.js"></script>
+    <script>
+		$(function(){
+			$('#slider-inner').slides({
+				play: 5000,
+				pause: 2500,
+				hoverPause: true,
+			});
+		});
+	</script>
+</head>
+<body>
+	<div class="overlay" id="overlay"></div>
+    <!--box-->
+   	<div class="box" id="box">
+        <div id="container-box">
+        	<h1>In order to continue with your purchase please Sign In </h1>
+            <div class="line-box"></div>
+            <div class="sign-social">
+            	<p>Sign in using:</p>
+                <button class="facebook-btn"></button>
+                <button class="twitter-btn"></button>
+            </div>
+            <div id="form-signin-area">
+            	<div class="triagle">
+                </div>
+                <form id="form-sign-in">
+                	<div class="block-sign-in">
+                    	<p>Email:</p>
+                        <input type="text">
+                    </div>
+                    <div class="block-sign-in">
+                    	<p>Password::</p>
+                        <input type="text">
+                    </div>
+                    <input type="submit" value="Sign in">
+                </form>
+       		</div>
+           	<div class="line-box"></div>
+           	<h2>Don't you have an account?No problem!Register now using:</h2>
+            <div class="register-social"><button class="facebook-btn"></button><button class="twitter-btn"></button></div>
+        </div>
+    </div>    <!--End-box-->
+	<!--wrapper-->
+	<div id="wrapper">
+    	<!--header-->
+    	<div id="header">
+        	<!--header-inner-->
+        	<div id="header-inner">
+            	<!--logo-->
+            	<a href="#" id="logo">
+                	<img src="images/logo.png" />
+                </a><!--End-logo-->
+                <form id="search-form">
+                	<input type="text" class="search-bar" name="search" onBlur="if(this.value=='') this.value='Search here';" onFocus="if(this.value=='Search here') this.value='';" value="Search here"/>
+                    <input type="submit" class="btn-search" name="submit" value=""/>
+                </form>
+                <!--login-->
+                <div id="login">
+                	<p>User:</p><a href="#">Log in</a> - <a href="#">Register</a>
+                </div><!--End-login-->
+                <!--cart-->
+                <a href="#" id="cart">
+                	<p>1 item(s):  $50</p>
+                </a>
+                <!--End-cart-->
+                <!--main-menu-->
+                <ul id="main-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Be-Spoke</a></li>
+                    <li><a href="#">Hosting</a></li>
+                    <li><a href="#">SEO</a></li>
+                    <li><a href="#">Marketing</a></li>
+                    <li><a href="#">Designing</a></li>
+                    <li><a href="#">e-Commerce</a></li>
+                    <li><a href="#">Logos</a></li>
+                    <li><a href="#">Example</a></li>
+                </ul><!--End-main-menu-->
+            </div><!--End-header-inner-->
+        </div><!--End-header-->
+        <!--slider-->
+        <div id="slider">
+        	<!--slider-inner-->
+        	<div id="slider-inner">
+            	<!--slides_container-->
+            	<div class="slides_container">
+                    <!--item-slider-->
+                    <div class="item-slider">
+                        <div class="img-slider">
+                            <img src="images/img-web_02.png" />                    
+                        </div><!--img-slider-->
+                        <!--slogan-->
+                        <div class="slogan">
+                            <h1>Choose A Template</h1>
+                            <p>Browse over 20,000 templates for the perfect design!<br>
+                                Download a FREE sample!</p>
+                        </div><!--End-slogan-->
+                        <a href="#" class="browse-template">
+                            Browse Templates
+                        </a>
+                    </div><!--End-item-slider-->
+                     <!--item-slider-->
+                    <div class="item-slider">
+                        <div class="img-slider">
+                            <img src="images/img-slider-2.jpg" />                    
+                        </div><!--img-slider-->
+                        <!--slogan-->
+                        <div class="slogan">
+                            <h1>Choose A Template</h1>
+                            <p>Browse over 20,000 templates for the perfect design!<br>
+                                Download a FREE sample!</p>
+                        </div><!--End-slogan-->
+                        <a href="#" class="browse-template">
+                            Browse Templates
+                        </a>
+                    </div><!--End-item-slider-->
+                     <!--item-slider-->
+                    <div class="item-slider">
+                        <div class="img-slider">
+                            <img src="images/img-slider-3.jpg" />                    
+                        </div><!--img-slider-->
+                        <!--slogan-->
+                        <div class="slogan">
+                            <h1>Choose A Template</h1>
+                            <p>Browse over 20,000 templates for the perfect design!<br>
+                                Download a FREE sample!</p>
+                        </div><!--End-slogan-->
+                        <a href="#" class="browse-template">
+                            Browse Templates
+                        </a>
+                    </div><!--End-item-slider-->
+                     <!--item-slider-->
+                    <div class="item-slider">
+                        <div class="img-slider">
+                            <img src="images/img-slider-4.jpg" />                    
+                        </div><!--img-slider-->
+                        <!--slogan-->
+                        <div class="slogan">
+                            <h1>Choose A Template</h1>
+                            <p>Browse over 20,000 templates for the perfect design!<br>
+                                Download a FREE sample!</p>
+                        </div><!--End-slogan-->
+                        <a href="#" class="browse-template">
+                            Browse Templates
+                        </a>
+                    </div><!--End-item-slider-->
+            	</div><!--End-slides_container-->
+            </div><!--End-slider-inner-->
+        </div><!--slider-->
+        <!--content-->
+        <div id="content">
+        	<!--content-inner-->
+        	<div id="content-inner">
+            	<!--guide-->
+                <div id="guide">
+                    <h1>Have your own website starting from only $269!</h1>
+                    <h2>Need a website for your business, professional career or organization? You’ve come to the right place.<br> 
+					We make it easy, affordable and stress-free!</h2>
+                </div><!--End-guide-->
+                <div class="line">
+                </div>
+                <!--Step-->
+                <div id="step">
+                	<!--block-step-->
+                	<div class="block-step">
+                    	<div class="step-number">
+                        	1
+                        </div>
+                        <div class="logo-step">
+                        	<img src="images/logo-step-1.png">
+                        </div>
+                        <!--text-step-->
+                        <div class="text-step">
+                        	Select your design
+                        </div><!--End-text-step-->
+                        <div class="arrow-step">
+                        </div>
+                    </div><!--End-block-step-->
+                    <!--block-step-->
+                	<div class="block-step">
+                    	<div class="step-number">
+                        	2
+                        </div>
+                        <div class="logo-step">
+                        	<img src="images/logo-step-2.png">
+                        </div>
+                        <!--text-step-->
+                        <div class="text-step">
+                        	Submit your content
+                        </div><!--End-text-step-->
+                        <div class="arrow-step">
+                        </div>
+                    </div><!--End-block-step-->
+                    <!--block-step-->
+                	<div class="block-step">
+                    	<div class="step-number">
+                        	3
+                        </div>
+                        <div class="logo-step">
+                        	<img src="images/logo-step-3.png">
+                        </div>
+                        <!--text-step-->
+                        <div class="text-step">
+                        	Sit back and relax
+                        </div><!--End-text-step-->
+                        <div class="arrow-step">
+                        </div>
+                    </div><!--End-block-step-->
+                    <!--circle-step-->
+                    <a href="#" class="circle-step">
+                    	<p>GO!</p>
+                    </a><!--End-circle-step-->
+                </div>
+                <!--End-Step-->
+                <div class="line">
+                </div>
+                <!--container-block-->
+                <div id="container-block">
+                	<!--block-->
+                	<div class="block">
+                    	<img src="images/block-img1.png" />
+                        <div class="content-block">
+                        	<h1><a href="#">Thousands of Website Templates</a></h1>
+                            <h2>Select yours now</h2>
+                            <div class="line-block"></div>
+                            <p>Choose from over 20,000 website templates in 50 categories. 
+You’re sure to find the perfect design for your project. We have HTML templates, Wordpress themes, Drupal themes,  Joomla templates and Magento themes.</p>
+                        </div>
+                    </div><!--End-block-->
+                    <!--block-->
+                	<div class="block">
+                    	<img src="images/block-img2.png" />
+                        <div class="content-block">
+                        	<h1><a href="#">Dedicated Web Designer</a></h1>
+                            <h2>He’s here to help you</h2>
+                            <div class="line-block"></div>
+                            <p>Only 1 professional web designer will work on your project. We will assign you a designer who will work with you through the entire process. All our designers have years of experience building websites, so you’re sure to be in good hands.</p>
+                        </div>
+                    </div><!--End-block-->
+                    <!--block-->
+                	<div class="block">
+                    	<img src="images/block-img3.png" />
+                        <div class="content-block">
+                        	<h1><a href="#">Ridiculously Affordable</a></h1>
+                            <h2>lowest prices on the market</h2>
+                            <div class="line-block"></div>
+                            <p>Place your order and customize your template. With other companies you must purchase a package which can include options you don’t really need. With our “a la carte” web design service you only pay for what you need, when you need it.</p>
+                        </div>
+                    </div><!--End-block-->
+                     <!--block-->
+                	<div class="block">
+                    	<img src="images/block-img4.png" />
+                        <div class="content-block">
+                        	<h1><a href="#">Amazing Communication</a></h1>
+                            <h2>Tell us how we can help</h2>
+                            <div class="line-block"></div>
+                            <p>We believe good communication is key to any successful relationship. We are always courteous and friendly and take the time to answer your questions. We are based in North America and easy to reach. We are just a quick phone call away.</p>
+                        </div>
+                    </div><!--End-block-->
+                     <!--block-->
+                	<div class="block">
+                    	<img src="images/block-img5.png" />
+                        <div class="content-block">
+                        	<h1><a href="#">Free Tech Support</a></h1>
+                            <h2>Fast and eazy</h2>
+                            <div class="line-block"></div>
+                            <p>Have a technical problem you just can’t seem to solve? No problem, give us a shout on our toll-free support line and have an expert designer assist you. It’s simple, quick and free for all our customers.</p>
+                        </div>
+                    </div><!--End-block-->
+                     <!--block-->
+                	<div class="block">
+                    	<img src="images/block-img6.png" />
+                        <div class="content-block">
+                        	<h1><a href="#">100% Money-back Guarantee</a></h1>
+                            <h2>No strings attached</h2>
+                            <div class="line-block"></div>
+                            <p>Yes, that’s correct. We are so certain that you will be happy with our service that if you’re not satisfied, we’ll refund your entire order. View our full guarantee policy here.</p>
+                        </div>
+                    </div><!--End-block-->
+                </div><!--End-container-block-->
+            </div><!--End-content-inner-->
+        </div><!--End-content-->
+    </div><!--End-wrapper-->
+    <!--footer-->
+    <div id="footer">
+        <!--footer-inner-->
+        <div id="footer-inner">
+        	<!--content-footer-->
+            <div id="content-footer">
+            	<!--block-footer-->
+            	<div class="block-footer">
+                	<h1>About Us</h1>
+                    <p>
+                    	EditMyTeamplate provides affordable web design services to professionals and small businesses by reducing the cost of creating a design from scratch. Pick a template, have it customized and get a beautiful new website.<br><br>
+
+Our expert designers will walk you through the entire process and answer any questions. Call us toll-free to get started:<span>(0000) 123-1234</span>
+                    </p>	
+                </div><!--End-block-footer-->
+                <!--block-footer-->
+            	<div class="block-footer">
+                	<h1>Latest Articles</h1>
+                    <ul>
+                    	<li><a href="#">5 Premium Restaurant Website 
+        Templates</a></li>
+                        <li><a href="#">5 Premium CSS & xHTML Website 
+        Templates</a></li>
+                    	<li><a href="#">10 Free Beautiful WordPress Themes
+        available now </a></li>
+                    	<li><a href="#">5 Free Amazing CSS Templates</a></li>
+                    </ul>
+                </div><!--End-block-footer-->
+                <!--block-footer-->
+            	<div class="block-footer">
+                	<h1>Browse Templates</h1>
+                    <ul>
+                    	<li><a href="#">Website Templates</a></li>
+                        <li><a href="#">Wordpress Themes</a></li>
+                    	<li><a href="#">Drupal Themes</a></li>
+                    	<li><a href="#">Joomla Templates</a></li>
+                        <li><a href="#">Magento Themes</a></li>
+                    	<li><a href="#">Mobile Templates</a></li>
+                    </ul>
+                </div><!--End-sblock-footer-->
+                 <!--block-footer-->
+            	<div class="block-footer">
+                	<h1>Contact Us</h1>
+                   	<p>Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>(0000) 123-1234</span><br>
+                    &nbsp;Skype:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>(0000) 123-1234</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>Email Us Today!</span><br>
+                    </p>
+                </div><!--End-block-footer-->
+                <!--block-footer-->
+                <div class="block-footer">
+                	<h2>Become a fan today</h2>
+                    <div id="social-netowrk">
+                    	<ul>
+                        	<li><a href="#"><img src="images/logo-facebook.png"></a></li>
+                           	<li><a href="#"><img src="images/logo-twitter.png"></a></li>
+                            <li><a href="#"><img src="images/logo-linkedin.png"></a></li>
+                        </ul>
+                    </div>
+                </div><!--End-block-footer-->
+            </div><!--content-footer-->
+            <!--author-->
+            <div id="author">
+            	<p id="coppyright">Copyright © 2012. All rights reserved - EditMyTemplate.com</p>
+                <p id="disigner">Designed by Vertiopia.</p>
+            </div><!--End-author-->
+        </div><!--End-footer-inner-->
+    </div><!--End-footer-->
+	  <script>
+        $(function() {
+            $('#log-in').click(function(){
+                $('#overlay').fadeIn('fast',function(){
+                    $('#box').fadeIn('fast');
+                });
+            });
+            $('#overlay').click(function(){
+                $('#box').fadeOut('fast',function(){
+                    $('#overlay').fadeOut('fast');
+                });
+            });
+         
+        });
+    </script> 	    	    	
+</body>
+</html>

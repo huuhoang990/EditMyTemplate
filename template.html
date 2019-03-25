@@ -1,0 +1,450 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>EditMyTemplate</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/slides.min.jquery.js"></script>
+    <script>
+		$(function(){
+			$('#slider-inner').slides({
+				play: 5000,
+				pause: 2500,
+				hoverPause: true,
+			});
+		});
+	</script>
+</head>
+<body>
+	<div class="overlay" id="overlay"></div>
+    <!--box-->
+   	<div class="box" id="box">
+        <div id="container-box">
+        	<h1>In order to continue with your purchase please Sign In </h1>
+            <div class="line-box"></div>
+            <div class="sign-social">
+            	<p>Sign in using:</p>
+                <button class="facebook-btn"></button>
+                <button class="twitter-btn"></button>
+            </div>
+            <div id="form-signin-area">
+            	<div class="triagle">
+                </div>
+                <form id="form-sign-in">
+                	<div class="block-sign-in">
+                    	<p>Email:</p>
+                        <input type="text">
+                    </div>
+                    <div class="block-sign-in">
+                    	<p>Password::</p>
+                        <input type="text">
+                    </div>
+                    <input type="submit" value="Sign in">
+                </form>
+       		</div>
+           	<div class="line-box"></div>
+           	<h2>Don't you have an account?No problem!Register now using:</h2>
+            <div class="register-social"><button class="facebook-btn"></button><button class="twitter-btn"></button></div>
+        </div>
+    </div>    <!--End-box-->
+	<!--wrapper-->
+	<div id="wrapper">
+    	<!--header-->
+    	<div id="header">
+        	<!--header-inner-->
+        	<div id="header-inner">
+            	<!--logo-->
+            	<a href="#" id="logo">
+                	<img src="images/logo.png" />
+                </a><!--End-logo-->
+                <form id="search-form">
+                	<input type="text" class="search-bar" name="search" onBlur="if(this.value=='') this.value='Search here';" onFocus="if(this.value=='Search here') this.value='';" value="Search here"/>
+                    <input type="submit" class="btn-search" name="submit" value=""/>
+                </form>
+                <!--login-->
+                <div id="login">
+                	<p>User:</p><a href="#" id="log-in">Log in</a> - <a href="#">Register</a>
+                </div><!--End-login-->
+                <!--cart-->
+                <a href="#" id="cart">
+                	<p>1 item(s):  $50</p>
+                </a>
+                <!--End-cart-->
+                <!--main-menu-->
+                <ul id="main-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Be-Spoke</a></li>
+                    <li><a href="#">Hosting</a></li>
+                    <li><a href="#">SEO</a></li>
+                    <li><a href="#">Marketing</a></li>
+                    <li><a href="#">Designing</a></li>
+                    <li><a href="#">e-Commerce</a></li>
+                    <li><a href="#">Logos</a></li>
+                    <li><a href="#">Example</a></li>
+                </ul><!--End-main-menu-->
+            </div><!--End-header-inner-->
+        </div><!--End-header-->
+        <!--slider-->
+        <div id="slider">
+       		<!--description-->
+            <div id="description">
+            	<h1>Customize Your Template</h1>
+            </div>
+            <!--End-description-area-->
+        </div><!--slider-->
+        <!--content-->
+        <div id="content">
+        	<!--content-inner-->
+        	<div id="content-inner">
+            	<div id="top-template"></div>
+            	<!--template-fearture-->
+            	<div id="template-fearture">
+                	<div id="template-image">
+                    	<img src="images/template-img.png">
+                    </div>
+                    <div id="content-template">
+                    	<h1>White & Grey Communication Website Template</h1>
+                         <p>
+                         	<br>
+                            Template Name: White & Grey Communications Website Template by Sawyer<br><br>
+        
+                            Item number: 42673<br>
+                            Template Type: Bootstrap<br>
+                            Author: Sawyer<br>
+                            Downloads: 0<br><br>
+                            
+                           <strong>Sources Available: .HTML; .PSD<br></strong>
+                            Software Required:<br>
+                            - Adobe Dreamweaver 8+;<br>
+                            - Adobe Photoshop CS+;<br>
+                            For uncompressing a template ZIP package:<br>
+                            - WinZip 9+ (Windows);<br>
+                            - Stuffit Expander 10+ (Mac)<br><br>
+                            
+                            Features: Bootstrap, Pro<br>
+                            - Bootstrap Version: 2.2.2<br>
+                            - Animation: HTML Plus JS<br>
+                            Layout: 1 Column<br>
+                            Width: 1500px<br>
+                            Language support: English<br><br>
+                        </p>
+                        <p>
+                        	<strong>Related Categories:</strong><br>
+                            <a href="#">Communications Templates</a><a href="#">Communications Web Templates</a>
+                        </p>
+                    </div>
+                </div><!--End-template-fearture-->
+                <h1 class="title">Step 1. Select your price</h1>
+                <form>
+                <!--price-box-area-->
+                <div id="price-box-area">
+                	<div class="price-box">
+                    	<div class="price-box-content">
+                            <input name="price" checked type="radio"><strong>Single Site License: $75</strong>
+                            <p>
+                                Under a Single Site License for the template you are granted a non-exclusive non-transferable permission to use the template on a single domain.
+                            </p>
+                    	</div>
+                    </div>
+                    <div class="price-box">
+                    	<div class="price-box-content">
+                            <input name="price" type="radio"><strong>Template + Installation: $124</strong>
+                            <p>
+                                This price includes a Single Site License for the template plus installation services from TemplateTuning.com
+                            </p>
+                    	</div>
+                    </div>
+                    <div class="price-box">
+                    	<div class="price-box-content">
+                            <input name="price" type="radio"><strong>Developer's License: $114</strong>
+                            <p>
+                                Under Developer's License you are granted a non-exclusive permission to use the template on up to 5 domains.
+                            </p>
+                    	</div>
+                    </div>
+                    <div class="price-box">
+                    	<div class="price-box-content">
+                            <input name="price" type="radio"><strong>Buyout Price: $4500</strong>
+                            <p>
+                               Buyout purchase means you and people that bought this template before you are the only ones to have it.
+                            </p>
+                    	</div>
+                    </div>
+                </div><!--End-price-box-area-->
+                <script type="text/javascript">
+					var a=$('.price-box-content input:checked').parent();
+					var b=a.parent();
+					b.addClass('price-box-blue');
+					$('.price-box input').click(
+						function(){
+							$('.price-box-blue').removeClass('price-box-blue');
+							var a=$('.price-box-content input:checked').parent();
+							var b=a.parent();
+							b.addClass('price-box-blue');
+						}
+					);
+                </script>
+                <!--customize-service-->
+                <div class="customize-service">
+                	<div class="customize-service-content">
+                 		<h1 class="title">Step 2. Select customization services</h1>
+                        <p>
+                        	<input type="radio" checked  name="service">Hackers and Spam Protection Pack <span>$110</span>
+                        </p>
+                        <p>
+                        	<input type="radio" name="service">Adding Your Logo <span>$110</span>
+                        </p>
+                        <p>
+                        	<input type="radio" name="service">Changing Color Scheme <span>$110</span>
+                        </p>
+                    </div>
+                </div><!--End-customize-service-->
+                 <!--customize-service-->
+                <div class="customize-service customize-service-last">
+                	<div class="customize-service-content">
+                 		<h1 class="title">Step 3. Security Issues</h1>
+                        <p>
+                        	<input type="radio" checked name="security">Hackers and Spam Protection Pack <span>$110</span>
+                        </p>
+                        <p>
+                        	<input type="radio" name="security">Trust Seal <span>$70</span>
+                        </p>
+                    </div>
+                </div><!--End-customize-service-->
+               	<h1 class="title" style="float:left;">Step 4. Manage Your Content</h1>
+				<div id="tab">
+                	<div id="tab-button-area">
+                        <div class="btn-tab active" title="general">
+                        	<span>General Information</span>
+                        </div>
+                        <div class="btn-tab" title="home">
+                        	<span>Home Page</span>
+                        </div>
+                        <div class="btn-tab" title="about">
+                       		<span>About Us</span>
+                        </div>
+                        <div class="btn-tab" title="photo">
+                       		<span>Photo Gallery</span>
+                        </div>
+                        <div class="btn-tab" title="client">
+                      		<span>Clients</span>
+                        </div>
+                        <div class="btn-tab" title="testimonials">
+                        	<span>Testimonials</span>
+                        </div>
+                        <div class="btn-tab" title="contact">
+                        	<span>Contact</span>
+                        </div>
+                    </div>
+                    <div id="content-tab">
+                    	<div id="general" class="general-tab">
+                        	<div class="general-column-1">
+                            	<div class="container-content-column-1">
+                                	<div>
+                                		<p class="tab-p">Logo:</p><input type="text" class="input-tab">
+                                    	<div class="last-label"><p class="tab-p">Tagline:</p><input type="text" class="input-tab"></div>
+                                 	</div>
+                                	<button class="browse-btn">Browse</button>
+                                </div>
+                            </div>
+                            <div class="general-column-2">
+                            	<div class="container-content-column-2">
+                                	<p class="tab-p">Menu Links</p>
+                                    <input type="text" class="menu-link-input" value="Home   About Us   Photo Gallery   Clients   Testimonials   Contact">
+                                </div>
+                            </div>
+                            <div class="general-column-3">
+                            	<div class="container-content-column-3">
+                                	<p class="tab-p">Social Media</p>
+                                   	<div class="block-social">
+                                    	<div id="facebook-account"></div>
+                                        <input type="text" value="Facebook account link" class="input-tab">
+                                    </div>
+                                    <div class="block-social">
+                                    	<div id="twitter-account"></div>
+                                        <input type="text" value="Twitter account lin" class="input-tab">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="home" class="other-tab">
+                        	<div class="home-column-1">
+                            	<p class="tab-p">Main title:</p><input type="text" class="input-tab">
+                                <div><p class="tab-p">Main Content:</p><textarea class="home-textarea"></textarea></div>
+                            </div>
+                            <div class="home-column-2">
+                            	<p class="tab-p">Home Page Movie:</p><input type="text" class="input-tab">
+                                <div><p class="tab-p">Main Content:</p><textarea class="home-textarea"></textarea></div>
+                            </div>
+                        </div>
+                         <div id="about" class="other-tab">
+                         	<div class="about-column-1">
+                            	<div><p class="tab-p ">Main title:</p><input type="text" class="input-tab title-about"></div>
+                                <div><p class="tab-p about-p">Image:</p><input type="text" class="input-tab">                                	<button class="browse-btn">Browse</button></div>
+                                <div><p class="tab-p">Main Content:</p><textarea class="about-textarea"></textarea></div>
+                            </div>
+                        </div>
+                         <div id="photo" class="other-tab">
+                         	<div class="photo-column-1">
+                            	<div class="content-photo-column-1">
+                                	<div class="label-title-gallery"><p class="tab-p">Gallery Title 1:</p><input type="text" class="input-tab input-gallery-title"></div>
+                                    <div><p class="tab-p">Image 1:</p><input type="text" class="input-tab"><button class="browse-btn">Browse</button></div>
+                                    <div><p class="tab-p">Image 2:</p><input type="text" class="input-tab"><button class="browse-btn">Browse</button></div>
+                                     <div><p class="tab-p">Image 3:</p><input type="text" class="input-tab"><button class="browse-btn">Browse</button></div>
+                                     <div><p class="tab-p">Image 4:</p><input type="text" class="input-tab"><button class="browse-btn">Browse</button></div>
+                                      <div><p class="tab-p">Image 5:</p><input type="text" class="input-tab"><button class="browse-btn">Browse</button></div>
+                                      <a href="#" class="another">add another gallery</a><a href="#" class="more">add more images</a>
+                                </div>
+                            </div>
+                            <div class="photo-column-2">
+                            	<div class="content-photo-column-2">
+                                	<div class="label-title-gallery"><p class="tab-p">Gallery Title 1:</p><input type="text" class="input-tab input-gallery-title"></div>
+                                    <div><p class="tab-p">Image 1:</p><input type="text" class="input-tab"><button class="browse-btn">Browse</button></div>
+                                    <div><p class="tab-p">Image 2:</p><input type="text" class="input-tab"><button class="browse-btn">Browse</button></div>
+                                     <div><p class="tab-p">Image 3:</p><input type="text" class="input-tab"><button class="browse-btn">Browse</button></div>
+                                     <div><p class="tab-p">Image 4:</p><input type="text" class="input-tab"><button class="browse-btn">Browse</button></div>
+                                      <div><p class="tab-p">Image 5:</p><input type="text" class="input-tab"><button class="browse-btn">Browse</button></div>
+                                      <a href="#" class="another">add another gallery</a><a href="#" class="more">add more images</a>
+                                </div>
+                            </div>
+                        </div>
+                         <div id="client" class="other-tab">
+                        </div>
+                         <div id="testimonials" class="other-tab">
+                         	<div class="testimonials-column-1">
+                            	<div class="testimonials-container">
+                                    <div><p class="tab-p">Client Name:</p><input type="text" class="input-tab input-contact"></div>
+                                    <div><p class="tab-p">Testimonial:</p><textarea class="input-contact"></textarea></div>
+                                     <div><p class="tab-p">Image:</p><input type="text" class="input-tab"><button class="browse-btn">Browse</button></div>
+                                      <a href="#" >add more testimonials</a>
+                               	</div>
+                            </div>
+                            <div class="testimonials-column-2">
+                            	<div class="testimonials-container">
+                                    <div><p class="tab-p">Client Name:</p><input type="text" class="input-tab input-contact"></div>
+                                    <div><p class="tab-p">Testimonial:</p><textarea class="input-contact"></textarea></div>
+                                     <div><p class="tab-p">Image:</p><input type="text" class="input-tab"><button class="browse-btn">Browse</button></div>
+                                      <a href="#" >add more testimonials</a>
+                               	</div>
+                            </div>
+                        </div>
+                         <div id="contact" class="other-tab">
+                         	<div class="contact-column-1">
+                            	<div class="testimonials-container">
+                                    <div><p class="tab-p">Client Name:</p><input type="text" class="input-tab input-contact"></div>
+                                    <div><p class="tab-p">Testimonial:</p><textarea class="input-contact"></textarea></div>
+                                     <div><p class="tab-p">Image:</p><input type="text" class="input-tab"><button class="browse-btn">Browse</button></div>
+                                      <a href="#" >add more testimonials</a>
+                               	</div>
+                            </div>
+                        </div>
+                    </div>
+                    <script type="text/javascript">
+						$('#content-tab > div').hide();
+						$('#content-tab  div:first-child').show();
+						
+						$('.btn-tab').click(
+							function(){
+								var id_hide=$('.active').attr('title');
+								$('#'+id_hide).hide();
+								$('.active').removeClass("active");
+								
+								var id_show=$(this).attr('title');
+								$('#'+id_show).show();
+								$(this).addClass("active");
+						});
+                    </script>
+                </div>
+               <button type="submit" id="save">Save and Proceed to next page</button>
+                </form>
+            </div><!--End-content-inner-->
+        </div><!--End-content-->
+    </div><!--End-wrapper-->
+    <!--footer-->
+    <div id="footer">
+        <!--footer-inner-->
+        <div id="footer-inner">
+        	<!--content-footer-->
+            <div id="content-footer">
+            	<!--block-footer-->
+            	<div class="block-footer">
+                	<h1>About Us</h1>
+                    <p>
+                    	EditMyTeamplate provides affordable web design services to professionals and small businesses by reducing the cost of creating a design from scratch. Pick a template, have it customized and get a beautiful new website.<br><br>
+
+Our expert designers will walk you through the entire process and answer any questions. Call us toll-free to get started:<span>(0000) 123-1234</span>
+                    </p>	
+                </div><!--End-block-footer-->
+                <!--block-footer-->
+            	<div class="block-footer">
+                	<h1>Latest Articles</h1>
+                    <ul>
+                    	<li><a href="#">5 Premium Restaurant Website 
+        Templates</a></li>
+                        <li><a href="#">5 Premium CSS & xHTML Website 
+        Templates</a></li>
+                    	<li><a href="#">10 Free Beautiful WordPress Themes
+        available now </a></li>
+                    	<li><a href="#">5 Free Amazing CSS Templates</a></li>
+                    </ul>
+                </div><!--End-block-footer-->
+                <!--block-footer-->
+            	<div class="block-footer">
+                	<h1>Browse Templates</h1>
+                    <ul>
+                    	<li><a href="#">Website Templates</a></li>
+                        <li><a href="#">Wordpress Themes</a></li>
+                    	<li><a href="#">Drupal Themes</a></li>
+                    	<li><a href="#">Joomla Templates</a></li>
+                        <li><a href="#">Magento Themes</a></li>
+                    	<li><a href="#">Mobile Templates</a></li>
+                    </ul>
+                </div><!--End-sblock-footer-->
+                 <!--block-footer-->
+            	<div class="block-footer">
+                	<h1>Contact Us</h1>
+                   	<p>Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>(0000) 123-1234</span><br>
+                    &nbsp;Skype:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>(0000) 123-1234</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>Email Us Today!</span><br>
+                    </p>
+                </div><!--End-block-footer-->
+                <!--block-footer-->
+                <div class="block-footer">
+                	<h2>Become a fan today</h2>
+                    <div id="social-netowrk">
+                    	<ul>
+                        	<li><a href="#"><img src="images/logo-facebook.png"></a></li>
+                           	<li><a href="#"><img src="images/logo-twitter.png"></a></li>
+                            <li><a href="#"><img src="images/logo-linkedin.png"></a></li>
+                        </ul>
+                    </div>
+                </div><!--End-block-footer-->
+            </div><!--content-footer-->
+            <!--author-->
+            <div id="author">
+            	<p id="coppyright">Copyright © 2012. All rights reserved - EditMyTemplate.com</p>
+                <p id="disigner">Designed by Vertiopia.</p>
+            </div><!--End-author-->
+        </div><!--End-footer-inner-->
+    </div><!--End-footer-->
+     <script>
+		$(function() {
+			$('#log-in').click(function(){
+				$('#overlay').fadeIn('fast',function(){
+					$('#box').fadeIn('fast');
+				});
+			});
+			$('#overlay').click(function(){
+				$('#box').fadeOut('fast',function(){
+					$('#overlay').fadeOut('fast');
+				});
+			});
+		 
+		});
+    </script> 	    	
+</body>
+</html>

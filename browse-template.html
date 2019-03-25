@@ -1,0 +1,544 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>EditMyTemplate</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/slides.min.jquery.js"></script>
+    <script>
+		$(function(){
+			$('#slider-inner').slides({
+				play: 5000,
+				pause: 2500,
+				hoverPause: true,
+			});
+		});
+	</script>
+</head>
+<body>
+	<div class="overlay" id="overlay"></div>
+    <!--box-->
+   	<div class="box" id="box">
+        <div id="container-box">
+        	<h1>In order to continue with your purchase please Sign In </h1>
+            <div class="line-box"></div>
+            <div class="sign-social">
+            	<p>Sign in using:</p>
+                <button class="facebook-btn"></button>
+                <button class="twitter-btn"></button>
+            </div>
+            <div id="form-signin-area">
+            	<div class="triagle">
+                </div>
+                <form id="form-sign-in">
+                	<div class="block-sign-in">
+                    	<p>Email:</p>
+                        <input type="text">
+                    </div>
+                    <div class="block-sign-in">
+                    	<p>Password::</p>
+                        <input type="text">
+                    </div>
+                    <input type="submit" value="Sign in">
+                </form>
+       		</div>
+           	<div class="line-box"></div>
+           	<h2>Don't you have an account?No problem!Register now using:</h2>
+            <div class="register-social"><button class="facebook-btn"></button><button class="twitter-btn"></button></div>
+        </div>
+    </div>    <!--End-box-->
+	<!--wrapper-->
+	<div id="wrapper">
+    	<!--header-->
+    	<div id="header">
+        	<!--header-inner-->
+        	<div id="header-inner">
+            	<!--logo-->
+            	<a href="#" id="logo">
+                	<img src="images/logo.png" />
+                </a><!--End-logo-->
+                <form id="search-form">
+                	<input type="text" class="search-bar" name="search" onBlur="if(this.value=='') this.value='Search here';" onFocus="if(this.value=='Search here') this.value='';" value="Search here"/>
+                    <input type="submit" class="btn-search" name="submit" value=""/>
+                </form>
+                <!--login-->
+                <div id="login">
+                	<p>User:</p><a href="#" id="log-in">Log in</a> - <a href="#">Register</a>
+                </div><!--End-login-->
+                <!--cart-->
+                <a href="#" id="cart">
+                	<p>1 item(s):  $50</p>
+                </a>
+                <!--End-cart-->
+                <!--main-menu-->
+                <ul id="main-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Be-Spoke</a></li>
+                    <li><a href="#">Hosting</a></li>
+                    <li><a href="#">SEO</a></li>
+                    <li><a href="#">Marketing</a></li>
+                    <li><a href="#">Designing</a></li>
+                    <li><a href="#">e-Commerce</a></li>
+                    <li><a href="#">Logos</a></li>
+                    <li><a href="#">Example</a></li>
+                </ul><!--End-main-menu-->
+            </div><!--End-header-inner-->
+        </div><!--End-header-->
+        <!--slider-->
+        <div id="slider">
+       		<!--description-->
+            <div id="description">
+            	<h1>Browse Your Template</h1>
+            </div>
+            <!--End-description-area-->
+        </div><!--slider-->
+        <!--content-->
+        <div id="content">
+        	<!--content-inner-->
+        	<div id="content-inner">
+            	<!--guide-->
+                <div id="top-browse-template">
+                </div><!--End-guide-->
+                <!--side-column-->
+                <div class="side-column">
+                	<h1>Browse by Type</h1>
+                	<ul>
+                    	<li><a href="#">After Effects Intros</a></li>
+                        <li><a href="#">After Effects logo Reveals</a></li>
+                        <li><a href="#">CRE Loaded Templates</a></li>
+                        <li><a href="#">Corporate Identity</a></li>
+                        <li><a href="#">Drupal Commerce Themes</a></li>
+                        <li><a href="#">Drupal Templates</a></li>
+                        <li><a href="#">Facebook Flash CMS</a></li>
+                        <li><a href="#">Templates</a></li>
+                        <li><a href="#">Facebook Flash Templates</a></li>
+                        <li><a href="#">Facebook HTML CMS</a></li>
+                        <li><a href="#">Templates</a></li>
+                        <li><a href="#">Facebook Flash Templates</a></li>
+                        <li><a href="#">Facebook HTML CSS</a></li>
+                        <li><a href="#">Templates</a></li>
+                        <li><a href="#">Facebook Templates</a></li>
+                        <li><a href="#">Flash CMS Templates</a></li>
+                        <li><a href="#">Flash Intro Templates</a></li>
+                        <li><a href="#">Flash Photo Gallery</a></li>
+                        <li><a href="#">Templates</a></li>
+                        <li><a href="#">Flash Templates</a></li>
+                        <li><a href="#">HD Graphics Packages</a></li>
+                        <li><a href="#">Icon Sets</a></li>
+                        <li><a href="#">Jigoshop Themes</a></li>
+                        <li><a href="#">Joomla Templates</a></li>
+                        <li><a href="#">Logo Templates</a></li>
+                        <li><a href="#">Logosets</a></li>
+                        <li><a href="#">Magento Themes</a></li>
+                        <li><a href="#">Mambo Templates</a></li>
+                        <li><a href="#">Mobile Templates</a></li>
+                        <li><a href="#">Moto CMS HTML Templates</a></li>
+                        <li><a href="#">OpenCart Templates</a></li>
+                        <li><a href="#">osCommerce Templates</a></li>
+                        <li><a href="#">PHP-Nuke Templates</a></li>
+                        <li><a href="#">PhpBB Templates</a></li>
+                        <li><a href="#">PowerPoint Templates</a></li>
+                        <li><a href="#">PrestaShop Themes</a></li>
+                        <li><a href="#">Razor Templates</a></li>
+                        <li><a href="#">SWISH Templates</a></li>
+                        <li><a href="#">Silverlight Intro Templates</a></li>
+                        <li><a href="#">Silverlight Templates</a></li>
+                        <li><a href="#">Stock Music</a></li>
+                        <li><a href="#">Turnkey Websites 2.0</a></li>
+                        <li><a href="#">Video Ecards</a></li>
+                        <li><a href="#">VirtueMart Templates</a></li>
+                        <li><a href="#">Website Templates</a></li>
+                        <li><a href="#">WordPress Themes</a></li>
+                        <li><a href="#">ZenCart Templates</a></li>
+                    </ul>
+                </div><!--End-side-column-->
+                 <!--middle-column-->
+                 <div class="middle-column">
+                 	<h1>Search Website Templates</h1>
+                    <form id="search-template">
+                    	<!--container-slect-->
+                    	<div id="container-search">
+                            <div class="block-search-template">
+                                <p>Products:</p>
+                                <select>
+                                  <option value="product-1">product 1</option>
+                                  <option value="product-2">product 2</option>
+                                  <option value="product-3">product 3</option>
+                                </select>
+                            </div>
+                            <div class="block-search-template">
+                                <p>Category:</p>
+                                <select>
+                                  <option value="Category-1">Category 1</option>
+                                  <option value="Category-2">Category 2</option>
+                                  <option value="Category-3">Category 3</option>
+                                </select>
+                            </div>
+                             <div class="block-search-template">
+                                <p>Author:</p>
+                                <select>
+                                  <option value="Author-1">Author 1</option>
+                                  <option value="Author-2">Author 2</option>
+                                  <option value="Author-3">Author 3</option>
+                                </select>
+                            </div>
+                    	</div><!--End-container-slect-->
+                        <!--container-slect-->
+                    	<div id="container-search">
+                            <div class="block-search-template">
+                                <p>Keyword:</p>
+                               	<input type="text">
+                            </div>
+                            <div class="block-search-template">
+                                <p>Item #:</p>
+                                <input type="text">
+                            </div>
+                             <div class="block-search-template">
+                                <p>From:</p>
+                               <div class="money-form">
+                               		$<input type="text"> to $<input type="text">
+                               </div>
+                            </div>
+                    	</div><!--End-container-slect-->
+                        <input type="submit" value="Submit">
+                    </form>
+                   	<!--featured-templates-->
+                	<div id="featured-templates">
+                		<h1>Featured templates</h1>
+                        <div class="page-number">
+                        	<ul>
+                            	<li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">6</a></li>
+                            </ul>
+                        </div>
+                        <!--container-template-->
+                        <div id="container-template">
+                        	<!--block-template-->
+                        	<div class="block-template">
+                            	<!--container-block-template-->
+                            	<div class="container-block-template">
+                                	<img src="images/customize-img5.png">
+                                    <div class="content-template">
+                                    	<a href="#" class="customize">Customize</a>
+                                        <a href="#" class="preview">Preview</a>
+                                        <div class="line-block-template"></div>
+                                        <p>Item  # : 42181</p>
+                                        <p>Type:Bootstrap</p>
+                                    </div>
+                                </div><!--End-container-block-template-->
+                            </div><!--End-block-template-->
+                            <!--block-template-->
+                        	<div class="block-template">
+                            	<!--container-block-template-->
+                            	<div class="container-block-template">
+                                	<img src="images/customize-img5.png">
+                                    <div class="content-template">
+                                    	<a href="#" class="customize">Customize</a>
+                                        <a href="#" class="preview">Preview</a>
+                                        <div class="line-block-template"></div>
+                                        <p>Item  # : 42181</p>
+                                        <p>Type:Bootstrap</p>
+                                    </div>
+                                </div><!--End-container-block-template-->
+                            </div><!--End-block-template-->
+                            <!--block-template-->
+                        	<div class="block-template">
+                            	<!--container-block-template-->
+                            	<div class="container-block-template">
+                                	<img src="images/customize-img5.png">
+                                    <div class="content-template">
+                                    	<a href="#" class="customize">Customize</a>
+                                        <a href="#" class="preview">Preview</a>
+                                        <div class="line-block-template"></div>
+                                        <p>Item  # : 42181</p>
+                                        <p>Type:Bootstrap</p>
+                                    </div>
+                                </div><!--End-container-block-template-->
+                            </div><!--End-block-template-->
+                            <!--block-template-->
+                        	<div class="block-template">
+                            	<!--container-block-template-->
+                            	<div class="container-block-template">
+                                	<img src="images/customize-img5.png">
+                                    <div class="content-template">
+                                    	<a href="#" class="customize">Customize</a>
+                                        <a href="#" class="preview">Preview</a>
+                                        <div class="line-block-template"></div>
+                                        <p>Item  # : 42181</p>
+                                        <p>Type:Bootstrap</p>
+                                    </div>
+                                </div><!--End-container-block-template-->
+                            </div><!--End-block-template-->
+                            <!--block-template-->
+                        	<div class="block-template">
+                            	<!--container-block-template-->
+                            	<div class="container-block-template">
+                                	<img src="images/customize-img5.png">
+                                    <div class="content-template">
+                                    	<a href="#" class="customize">Customize</a>
+                                        <a href="#" class="preview">Preview</a>
+                                        <div class="line-block-template"></div>
+                                        <p>Item  # : 42181</p>
+                                        <p>Type:Bootstrap</p>
+                                    </div>
+                                </div><!--End-container-block-template-->
+                            </div><!--End-block-template-->
+                            <!--block-template-->
+                        	<div class="block-template">
+                            	<!--container-block-template-->
+                            	<div class="container-block-template">
+                                	<img src="images/customize-img5.png">
+                                    <div class="content-template">
+                                    	<a href="#" class="customize">Customize</a>
+                                        <a href="#" class="preview">Preview</a>
+                                        <div class="line-block-template"></div>
+                                        <p>Item  # : 42181</p>
+                                        <p>Type:Bootstrap</p>
+                                    </div>
+                                </div><!--End-container-block-template-->
+                            </div><!--End-block-template-->
+                            <!--block-template-->
+                        	<div class="block-template">
+                            	<!--container-block-template-->
+                            	<div class="container-block-template">
+                                	<img src="images/customize-img5.png">
+                                    <div class="content-template">
+                                    	<a href="#" class="customize">Customize</a>
+                                        <a href="#" class="preview">Preview</a>
+                                        <div class="line-block-template"></div>
+                                        <p>Item  # : 42181</p>
+                                        <p>Type:Bootstrap</p>
+                                    </div>
+                                </div><!--End-container-block-template-->
+                            </div><!--End-block-template-->
+                            <!--block-template-->
+                        	<div class="block-template">
+                            	<!--container-block-template-->
+                            	<div class="container-block-template">
+                                	<img src="images/customize-img5.png">
+                                    <div class="content-template">
+                                    	<a href="#" class="customize">Customize</a>
+                                        <a href="#" class="preview">Preview</a>
+                                        <div class="line-block-template"></div>
+                                        <p>Item  # : 42181</p>
+                                        <p>Type:Bootstrap</p>
+                                    </div>
+                                </div><!--End-container-block-template-->
+                            </div><!--End-block-template-->
+                            <!--block-template-->
+                        	<div class="block-template">
+                            	<!--container-block-template-->
+                            	<div class="container-block-template">
+                                	<img src="images/customize-img5.png">
+                                    <div class="content-template">
+                                    	<a href="#" class="customize">Customize</a>
+                                        <a href="#" class="preview">Preview</a>
+                                        <div class="line-block-template"></div>
+                                        <p>Item  # : 42181</p>
+                                        <p>Type:Bootstrap</p>
+                                    </div>
+                                </div><!--End-container-block-template-->
+                            </div><!--End-block-template-->
+                            <!--block-template-->
+                        	<div class="block-template">
+                            	<!--container-block-template-->
+                            	<div class="container-block-template">
+                                	<img src="images/customize-img5.png">
+                                    <div class="content-template">
+                                    	<a href="#" class="customize">Customize</a>
+                                        <a href="#" class="preview">Preview</a>
+                                        <div class="line-block-template"></div>
+                                        <p>Item  # : 42181</p>
+                                        <p>Type:Bootstrap</p>
+                                    </div>
+                                </div><!--End-container-block-template-->
+                            </div><!--End-block-template-->
+                            <!--block-template-->
+                        	<div class="block-template">
+                            	<!--container-block-template-->
+                            	<div class="container-block-template">
+                                	<img src="images/customize-img5.png">
+                                    <div class="content-template">
+                                    	<a href="#" class="customize">Customize</a>
+                                        <a href="#" class="preview">Preview</a>
+                                        <div class="line-block-template"></div>
+                                        <p>Item  # : 42181</p>
+                                        <p>Type:Bootstrap</p>
+                                    </div>
+                                </div><!--End-container-block-template-->
+                            </div><!--End-block-template-->
+                            <!--block-template-->
+                        	<div class="block-template">
+                            	<!--container-block-template-->
+                            	<div class="container-block-template">
+                                	<img src="images/customize-img5.png">
+                                    <div class="content-template">
+                                    	<a href="#" class="customize">Customize</a>
+                                        <a href="#" class="preview">Preview</a>
+                                        <div class="line-block-template"></div>
+                                        <p>Item  # : 42181</p>
+                                        <p>Type:Bootstrap</p>
+                                    </div>
+                                </div><!--End-container-block-template-->
+                            </div><!--End-block-template-->
+                        </div><!--End-container-template-->
+                          <div class="page-number page-number-second">
+                        	<ul>
+                            	<li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li><a href="#">6</a></li>
+                            </ul>
+                        </div>
+                	</div><!--End-featured-templates-->
+                </div><!--End-middle-column-->
+                <!--side-column-->
+                <div class="side-column">
+                	<h1>Browse by Type</h1>
+                	<ul>
+                    	<li><a href="#">After Effects Intros</a></li>
+                        <li><a href="#">After Effects logo Reveals</a></li>
+                        <li><a href="#">CRE Loaded Templates</a></li>
+                        <li><a href="#">Corporate Identity</a></li>
+                        <li><a href="#">Drupal Commerce Themes</a></li>
+                        <li><a href="#">Drupal Templates</a></li>
+                        <li><a href="#">Facebook Flash CMS</a></li>
+                        <li><a href="#">Templates</a></li>
+                        <li><a href="#">Facebook Flash Templates</a></li>
+                        <li><a href="#">Facebook HTML CMS</a></li>
+                        <li><a href="#">Templates</a></li>
+                        <li><a href="#">Facebook Flash Templates</a></li>
+                        <li><a href="#">Facebook HTML CSS</a></li>
+                        <li><a href="#">Templates</a></li>
+                        <li><a href="#">Facebook Templates</a></li>
+                        <li><a href="#">Flash CMS Templates</a></li>
+                        <li><a href="#">Flash Intro Templates</a></li>
+                        <li><a href="#">Flash Photo Gallery</a></li>
+                        <li><a href="#">Templates</a></li>
+                        <li><a href="#">Flash Templates</a></li>
+                        <li><a href="#">HD Graphics Packages</a></li>
+                        <li><a href="#">Icon Sets</a></li>
+                        <li><a href="#">Jigoshop Themes</a></li>
+                        <li><a href="#">Joomla Templates</a></li>
+                        <li><a href="#">Logo Templates</a></li>
+                        <li><a href="#">Logosets</a></li>
+                        <li><a href="#">Magento Themes</a></li>
+                        <li><a href="#">Mambo Templates</a></li>
+                        <li><a href="#">Mobile Templates</a></li>
+                        <li><a href="#">Moto CMS HTML Templates</a></li>
+                        <li><a href="#">OpenCart Templates</a></li>
+                        <li><a href="#">osCommerce Templates</a></li>
+                        <li><a href="#">PHP-Nuke Templates</a></li>
+                        <li><a href="#">PhpBB Templates</a></li>
+                        <li><a href="#">PowerPoint Templates</a></li>
+                        <li><a href="#">PrestaShop Themes</a></li>
+                        <li><a href="#">Razor Templates</a></li>
+                        <li><a href="#">SWISH Templates</a></li>
+                        <li><a href="#">Silverlight Intro Templates</a></li>
+                        <li><a href="#">Silverlight Templates</a></li>
+                        <li><a href="#">Stock Music</a></li>
+                        <li><a href="#">Turnkey Websites 2.0</a></li>
+                        <li><a href="#">Video Ecards</a></li>
+                        <li><a href="#">VirtueMart Templates</a></li>
+                        <li><a href="#">Website Templates</a></li>
+                        <li><a href="#">WordPress Themes</a></li>
+                        <li><a href="#">ZenCart Templates</a></li>
+                    </ul>
+                </div><!--End-side-column-->
+            </div><!--End-content-inner-->
+        </div><!--End-content-->
+    </div><!--End-wrapper-->
+    <!--footer-->
+    <div id="footer">
+        <!--footer-inner-->
+        <div id="footer-inner">
+        	<!--content-footer-->
+            <div id="content-footer">
+            	<!--block-footer-->
+            	<div class="block-footer">
+                	<h1>About Us</h1>
+                    <p>
+                    	EditMyTeamplate provides affordable web design services to professionals and small businesses by reducing the cost of creating a design from scratch. Pick a template, have it customized and get a beautiful new website.<br><br>
+
+Our expert designers will walk you through the entire process and answer any questions. Call us toll-free to get started:<span>(0000) 123-1234</span>
+                    </p>	
+                </div><!--End-block-footer-->
+                <!--block-footer-->
+            	<div class="block-footer">
+                	<h1>Latest Articles</h1>
+                    <ul>
+                    	<li><a href="#">5 Premium Restaurant Website 
+        Templates</a></li>
+                        <li><a href="#">5 Premium CSS & xHTML Website 
+        Templates</a></li>
+                    	<li><a href="#">10 Free Beautiful WordPress Themes
+        available now </a></li>
+                    	<li><a href="#">5 Free Amazing CSS Templates</a></li>
+                    </ul>
+                </div><!--End-block-footer-->
+                <!--block-footer-->
+            	<div class="block-footer">
+                	<h1>Browse Templates</h1>
+                    <ul>
+                    	<li><a href="#">Website Templates</a></li>
+                        <li><a href="#">Wordpress Themes</a></li>
+                    	<li><a href="#">Drupal Themes</a></li>
+                    	<li><a href="#">Joomla Templates</a></li>
+                        <li><a href="#">Magento Themes</a></li>
+                    	<li><a href="#">Mobile Templates</a></li>
+                    </ul>
+                </div><!--End-sblock-footer-->
+                 <!--block-footer-->
+            	<div class="block-footer">
+                	<h1>Contact Us</h1>
+                   	<p>Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>(0000) 123-1234</span><br>
+                    &nbsp;Skype:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>(0000) 123-1234</span><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>Email Us Today!</span><br>
+                    </p>
+                </div><!--End-block-footer-->
+                <!--block-footer-->
+                <div class="block-footer">
+                	<h2>Become a fan today</h2>
+                    <div id="social-netowrk">
+                    	<ul>
+                        	<li><a href="#"><img src="images/logo-facebook.png"></a></li>
+                           	<li><a href="#"><img src="images/logo-twitter.png"></a></li>
+                            <li><a href="#"><img src="images/logo-linkedin.png"></a></li>
+                        </ul>
+                    </div>
+                </div><!--End-block-footer-->
+            </div><!--content-footer-->
+            <!--author-->
+            <div id="author">
+            	<p id="coppyright">Copyright © 2012. All rights reserved - EditMyTemplate.com</p>
+                <p id="disigner">Designed by Vertiopia.</p>
+            </div><!--End-author-->
+        </div><!--End-footer-inner-->
+    </div><!--End-footer-->
+     <script>
+		$(function() {
+			$('#log-in').click(function(){
+				$('#overlay').fadeIn('fast',function(){
+					$('#box').fadeIn('fast');
+				});
+			});
+			$('#overlay').click(function(){
+				$('#box').fadeOut('fast',function(){
+					$('#overlay').fadeOut('fast');
+				});
+			});
+		 
+		});
+    </script> 	    	
+</body>
+</html>
